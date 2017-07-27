@@ -1,0 +1,94 @@
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.loader {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.result {
+    width: 502px;
+    margin-top: -1px;
+    padding: 10px 0;
+    position: relative;
+    border: solid 1px #ccc;
+}
+.border {
+    border: solid 1px #f5f5f5;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.img-content img{
+    width: 100%;
+}
+.description {
+    width: 383px;
+}
+.full {
+    width: 99%;
+    padding: 10px;
+}
+.description h2{
+    font: normal 18px Arial;
+}
+.description p{
+    font: normal 14px Arial;
+}
+.linkTo {
+    display: none;
+    text-decoration: none;
+    color: #000;
+}
+.img-content .s-img{
+    width: 100px;
+}
+.app-name {
+    color: #ccc;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+.post-container {
+    width: 502px;
+    position: relative;
+}
+.post-container textarea {
+    display: block;
+    width: 482px;
+    border: solid 1px #ddd;
+    resize: none;
+    padding: 10px;
+}
+.close {
+    position: absolute;
+    background: none;
+    border: none;
+    top: 10px;
+    right: 10px;
+    text-indent: -9999px;
+    width: 15px;
+    height: 15px;
+    background: url('../image/close.png') no-repeat center;
+    background-size: cover;
+    display: none;
+    padding: 0;
+    cursor: pointer;
+}
+.n-p-t {
+    padding-top: 0;
+}
+.padding {
+    padding: 10px;
+    width: 482px;
+}
